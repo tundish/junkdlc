@@ -38,9 +38,16 @@ class Fruition(State, enum.Enum):
 | Elaboration   | Hand  | declining     | Disinclination| Withdrawn     |
 | Elaboration   | Hand  | promising     | Promise       | Construction  |
 | Elaboration   | Hand  | suggesting    | Suggestion    | Discussion    |
-| Elaboration   |       | proposing     | disavowal     | Withdrawn     |
-|               |       | condemning    | condemnation  |               |
-|               |       | declining     | Disinclination|               |
+| Discussion    | Head  | countering    | Counter       | Elaboration   |
+| Discussion    | Head  | confirming    | Confirmation  | Construction  |
+| Discussion    | Head  | abandoning    | Abandonment   | Withdrawn     |
+| Discussion    | Hand  | declining     | Disinclination| Withdrawn     |
+| Construction  | Hand  | disavowing    | Disavowal     | Defaulted     |
+| Construction  | Head  | abandoning    | Abandonment   | Cancelled     |
+| Construction  | Hand  | delivering    | Delivery      | Transition    |
+| Transition    | Head  | condemning    | Condemnation  | Construction  |
+| Transition    | Head  | abandoning    | Abandonment   | Cancelled     |
+| Transition    | Head  | declaring     | Declaration   | Completion    |
 
 propose
 :   inception -> elaboration
