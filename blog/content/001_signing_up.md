@@ -31,13 +31,14 @@ class Fruition(State, enum.Enum):
     cancelled = 9
 ```
 
-| Event         | Exit      | Entry     | Participle    |
-|---------------|-----------|-----------|---------------|
-| Proposal      |           |           | proposing     |
-| Abandonment   |           |           | abandoning    |
-| disavowal     |           |           | proposing     |
-| condemnation  |           |           | condemning    |
-| Disinclination|           |           | declining     |
+| State 0       | State 1       | Actor | Event         | Participle    |
+|---------------|---------------|-------|---------------|---------------|
+| Inception     | Elaboration   | Head  | Proposal      | proposing     |
+| Elaboration   | Withdrawn     | Head  | Abandonment   | abandoning    |
+| Elaboration   | Withdrawn     | Hand  | Disinclination| declining     |
+| Elaboration   | Withdrawn     |       | disavowal     | proposing     |
+|               |               |       | condemnation  | condemning    |
+|               |               |       | Disinclination| declining     |
 
 propose
 :   inception -> elaboration
