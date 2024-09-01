@@ -60,3 +60,20 @@ propose
 
 Structuralism vs Phenomenology
 
+Kit
+===
+
+Reversal
+--------
+
+Head (proposing):
+: > Can you get the mugs for me?
+
+Hand (suggesting):
+: > I'll get them in a minute.
+
+Head (countering):
+: > Don't worry, I'll do it.
+
+Brew
+----
