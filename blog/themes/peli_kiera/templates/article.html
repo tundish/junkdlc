@@ -3,6 +3,11 @@
 {% block title %}{{ SITENAME }} - {{ article.title }}{% endblock %}
 {% block head %}
 {{ super() }}
+{% if 'cover' in article.metadata %}
+<meta property="og:image" content="{{ SITEURL }}/{{ article.metadata['cover'] }}">
+{% else %}
+<meta property="og:image" content="{{ SITELOGO }}">
+{% endif %}
 {% if article.description %}
 <meta name="description" content="{{ article.description }}" />
 {% endif %}

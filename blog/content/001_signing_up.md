@@ -11,6 +11,8 @@ Conversation for Action
 
 TBD.
 
+![JunkDLCPelican]({static}/img/junkdlc_sketch_headshot.jpg){:style="width:35%;margin:1rem"}
+
 ```python
 class Fruition(State, enum.Enum):
     """
@@ -52,7 +54,7 @@ class Fruition(State, enum.Enum):
 propose
 :   inception -> elaboration
 
-![JunkDLCPelican]({static}/img/junkdlc_sketch_headshot.jpg){: style="width:35%;margin:1rem"}
+[Fruition of Action]({static}/doc/fruition_of_action.pdf){:target="_blank"}
 
 Structuralism vs Phenomenology
 
