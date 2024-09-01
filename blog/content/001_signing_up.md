@@ -1,4 +1,4 @@
-title: #1: September
+title: #1: Fruition of Action
 date: 2024-02-24
 author: D E Haynes
 tags: winograd, flores, fruition
@@ -6,12 +6,14 @@ category: Blog
 status: published
 summary: On Fruition
 
-Conversation for Action
------------------------
+Winograd and Flores
+-------------------
+
+1988.
 
 TBD.
 
-![JunkDLCPelican]({static}/img/junkdlc_sketch_headshot.jpg){:style="width:35%;margin:1rem"}
+![JunkDLCPelican]({static}/img/UCAC_fig5-1.png){:style="width:96%;margin:1rem"}
 
 ```python
 class Fruition(State, enum.Enum):
