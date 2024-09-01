@@ -52,5 +52,7 @@ class Fruition(State, enum.Enum):
 propose
 :   inception -> elaboration
 
+![JunkDLCPelican]({static}/img/junkdlc_sketch_headshot.jpg){: style="width:35%;margin:1rem"}
+
 Structuralism vs Phenomenology
 
