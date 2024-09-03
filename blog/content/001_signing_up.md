@@ -1,4 +1,4 @@
-title: #1: Fruition of Action
+title: #1: Fruition of Activity
 date: 2024-02-24
 author: D E Haynes
 tags: winograd, flores, fruition
