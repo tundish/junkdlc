@@ -60,6 +60,42 @@ propose
 
 Structuralism vs Phenomenology
 
+Social
+======
+
+1
+-
+
+Head (proposing):
+: > Stick the kettle on, would you?
+
+Hand (declining):
+: > No time, sorry. I'm just about to leave for my train.
+
+2
+-
+
+Head (proposing):
+: > Stick the kettle on, would you?
+
+Hand (suggesting):
+: > Tea or Coffee?
+
+Head (confirming):
+: > Tea, please.
+
+3
+-
+
+Head (proposing):
+: > Stick the kettle on, would you?
+
+Hand (promising):
+: > OK.
+
+Head (abandoning):
+: > Do you know what, I think I'll have a bath first. I'll be back down in half an hour.
+
 Kit
 ===
 
@@ -70,9 +106,9 @@ Head (proposing):
 : > Can you get the mugs for me?
 
 Hand (suggesting):
-: > I'll get them in a minute.
+: > My phone's ringing, I'll get them in a second.
 
-Head (countering):
+Head (countering), Hand (promising):
 : > Don't worry, I'll do it.
 
 Brew
