@@ -67,24 +67,26 @@ Structuralism vs Phenomenology
 Composability
 =============
 
-ALAN (proposing):
+ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BETH (suggesting):
+BARRY (suggesting):
 : > Tea or Coffee?
 
-ALAN (confirming):
+ALICE (confirming):
 : > Tea, please.
 
+Each of these may in turn instantiate other activities when necessary.
 Activities are composable. In the Construction state especially, One Activity can create another.
 (Also synch!)
 
-Two parallel activities:
+Two types of activities:
 
 * Collecting materials
 * Assembling the product
 
-Each of these may in turn instantiate other activities when necessary
+If two people are involved, the work can take place in two different regions of the activity model.
+But in a social context, neither party acts in isolation. There is regular chit-chat and exchange of information.
 
 The different activities proceed concurrently and from time to time synchronize upon each other.
 
@@ -104,34 +106,34 @@ Social
 1
 -
 
-Head (proposing):
+ALICE (proposing):
 : > Stick the kettle on, would you?
 
-Hand (declining):
+BARRY (declining):
 : > No time, sorry. I'm just about to leave for my train.
 
 2
 -
 
-Head (proposing):
+ALICE (proposing):
 : > Stick the kettle on, would you?
 
-Hand (suggesting):
+BARRY (suggesting):
 : > Tea or Coffee?
 
-Head (confirming):
+ALICE (confirming):
 : > Tea, please.
 
 3
 -
 
-Head (proposing):
+ALICE (proposing):
 : > Stick the kettle on, would you?
 
-Hand (promising):
+BARRY (promising):
 : > OK.
 
-Head (abandoning):
+ALICE (abandoning):
 : > Do you know what, I think I'll have a bath first. I'll be back down in half an hour.
 
 Kit
@@ -140,15 +142,15 @@ Kit
 Conflict
 --------
 
-BETH (proposing):
+BARRY (proposing):
 : > Can you get the mugs for me?
 
-ALAN (promising or declining?):
+ALICE (promising or declining?):
 : > My phone's ringing, I'll get them in a second.
 
 His promise lacks conviction. It's a weak enough statement to constitute declining. What happens next?
 
-BETH (countering):
+BARRY (countering):
 : > Don't worry, I'll do it.
 
 Have they agreed that Beth will get the mugs from the cupboard? There is social value in Alan being involved in the
