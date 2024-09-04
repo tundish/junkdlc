@@ -35,6 +35,8 @@ class Fruition(State, enum.Enum):
     cancelled = 9
 ```
 
+Introduce 'head' and 'hand'. Explain renaming of arcs.
+
 | When          | Role  | Participle    | Event         | Then          |
 |---------------|-------|---------------|---------------|---------------|
 | Inception     | Head  | proposing     | Proposal      | Elaboration   |
@@ -99,17 +101,31 @@ Head (abandoning):
 Kit
 ===
 
-Reversal
+Conflict
 --------
 
-Head (proposing):
+BETH (proposing):
 : > Can you get the mugs for me?
 
-Hand (suggesting):
+ALAN (promising or declining?):
 : > My phone's ringing, I'll get them in a second.
 
-Head (countering), Hand (promising):
+His promise lacks conviction. It's a weak enough statement to constitute declining. What happens next?
+
+BETH (countering):
 : > Don't worry, I'll do it.
+
+Have they agreed that Beth will get the mugs from the cupboard? There is social value in Alan being involved in the
+making of the tea. Perhaps he'd like therefore to be the Hand that does it.
+
+Alan can still be considered the Hand of the Activity which is in Construction.
+Beth, with more urgency, has countered his ambiguous Suggestion/Disinclination with a clarification.
+
+Activities are composable. In the Construction state especially, One Activity can create another.
+(Also synch!)
+Are there two Activities now, or one? I'd say two. Beth is performing a second activity which synchronises with Alan's.
+If he she takes the mugs from the cupboard before he does, she will force him to acknowledge he won't complete
+the task (Disavowal).
 
 Brew
 ----
