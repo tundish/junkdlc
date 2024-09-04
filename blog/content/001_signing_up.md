@@ -35,6 +35,8 @@ class Fruition(State, enum.Enum):
     cancelled = 9
 ```
 
+[RUP lifecycle](https://en.wikipedia.org/wiki/Rational_unified_process#Four_project_life-cycle_phases)
+
 Introduce 'head' and 'hand'. Explain renaming of arcs.
 
 | When          | Role  | Participle    | Event         | Then          |
@@ -61,6 +63,40 @@ propose
 [Fruition of Action]({static}/doc/fruition_of_action.pdf){:target="_blank"}
 
 Structuralism vs Phenomenology
+
+Composability
+=============
+
+ALAN (proposing):
+: > Stick the kettle on, would you?
+
+BETH (suggesting):
+: > Tea or Coffee?
+
+ALAN (confirming):
+: > Tea, please.
+
+Activities are composable. In the Construction state especially, One Activity can create another.
+(Also synch!)
+
+Two parallel activities:
+
+* Collecting materials
+* Assembling the product
+
+Each of these may in turn instantiate other activities when necessary
+
+The different activities proceed concurrently and from time to time synchronize upon each other.
+
+I'm stirring the teapot with a spoon. Are we having sugar? Where is the spoon for the sugar?
+I could use this spoon, but I can't put a wet spoon in the sugar.
+So I need a tea towel. Or maybe just another spoon.
+
+And so on.
+
+Perspective
+===========
+
 
 Social
 ======
@@ -121,8 +157,6 @@ making of the tea. Perhaps he'd like therefore to be the Hand that does it.
 Alan can still be considered the Hand of the Activity which is in Construction.
 Beth, with more urgency, has countered his ambiguous Suggestion/Disinclination with a clarification.
 
-Activities are composable. In the Construction state especially, One Activity can create another.
-(Also synch!)
 Are there two Activities now, or one? I'd say two. Beth is performing a second activity which synchronises with Alan's.
 If he she takes the mugs from the cupboard before he does, she will force him to acknowledge he won't complete
 the task (Disavowal).
