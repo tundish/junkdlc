@@ -28,6 +28,7 @@ class Fruition(State, enum.Enum):
     elaboration = 2
     construction = 3
     transition = 4
+    evaluation = 4
     completion = 5
     discussion = 6
     defaulted = 7
@@ -52,10 +53,10 @@ Introduce 'head' and 'hand'. Explain renaming of arcs.
 | Discussion    | Hand  | declining     | Disinclination| Withdrawn     |
 | Construction  | Hand  | disavowing    | Disavowal     | Defaulted     |
 | Construction  | Head  | abandoning    | Abandonment   | Cancelled     |
-| Construction  | Hand  | delivering    | Delivery      | Transition    |
-| Transition    | Head  | condemning    | Condemnation  | Construction  |
-| Transition    | Head  | abandoning    | Abandonment   | Cancelled     |
-| Transition    | Head  | declaring     | Declaration   | Completion    |
+| Construction  | Hand  | delivering    | Delivery      | Evaluation    |
+| Evaluation    | Head  | condemning    | Condemnation  | Construction  |
+| Evaluation    | Head  | abandoning    | Abandonment   | Cancelled     |
+| Evaluation    | Head  | declaring     | Declaration   | Completion    |
 
 propose
 :   inception -> elaboration
