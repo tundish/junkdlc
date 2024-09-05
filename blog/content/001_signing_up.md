@@ -1,4 +1,4 @@
-title: #1: Fruition of Activity
+title: #1: Activity and Fruition
 date: 2024-02-24
 author: D E Haynes
 tags: winograd, flores, fruition
@@ -135,32 +135,26 @@ BARRY (promising):
 ALICE (abandoning):
 : > Do you know what, I think I'll have a bath first. I'll be back down in half an hour.
 
-Kit
-===
+Ambiguity
+---------
 
-Conflict
---------
-
-BARRY (proposing):
+ALICE (proposing):
 : > Can you get the mugs for me?
 
-ALICE (promising or declining?):
+BARRY (suggesting?):
 : > My phone's ringing, I'll get them in a second.
 
-Her promise lacks conviction. It's a weak enough statement to constitute declining. What happens next?
+His words lack conviction. It's a weak enough statement to constitute Disinclination.
+Even if it's meant as a Promise, it might not meet Alice's expectations for timeliness.
+What happens next?
 
-BARRY (countering):
+ALICE (confirming):
 : > Don't worry, I'll do it.
 
-Have they agreed that Barry will get the mugs from the cupboard?
-There is value for Alice in being involved in the making of the tea.
-Perhaps she'd like therefore to be the Hand that does it.
+Have they agreed that Alice will get the mugs from the cupboard?
+She is about to take the role of the Hand for this Activity.
+But it seems to me that Barry is still involved somehow, like a sort of sleeping partner.
+I wonder if he now owes Alice a favour?
 
-Alice can still be considered the Hand of the Activity which is in Construction.
-Barry, with more urgency, has countered her ambiguous Suggestion/Disinclination with a clarification.
-
-If he she takes the mugs from the cupboard before he does, she will force him to acknowledge he won't complete
-the task (Disavowal).
-
-Brew
-----
+We risk going down some fascinating rabbit holes which sadly, like Barry, I don't
+currently have time for.
