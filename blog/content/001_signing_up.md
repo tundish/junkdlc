@@ -61,7 +61,7 @@ Introduce 'head' and 'hand'. Explain renaming of arcs.
 propose
 :   inception -> elaboration
 
-[Fruition of Action]({static}/doc/fruition_of_action.pdf){:target="_blank"}
+[Fruition of Action]({static}/doc/fruition_of_activity.pdf){:target="_blank"}
 
 Structuralism vs Phenomenology
 
