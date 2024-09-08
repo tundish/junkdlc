@@ -38,30 +38,32 @@ class Fruition(State, enum.Enum):
 
 [RUP lifecycle](https://en.wikipedia.org/wiki/Rational_unified_process#Four_project_life-cycle_phases)
 
+![Fruition of Action]({static}/img/fruition.png){:style="width:96%;margin:1rem"}
+
 Introduce 'head' and 'hand'. Explain renaming of arcs.
 
 | When          | Role  | Participle    | Event         | Then          |
 |---------------|-------|---------------|---------------|---------------|
-| Inception     | Head  | proposing     | Proposal      | Elaboration   |
-| Elaboration   | Head  | abandoning    | Abandonment   | Withdrawn     |
-| Elaboration   | Hand  | declining     | Disinclination| Withdrawn     |
-| Elaboration   | Hand  | promising     | Promise       | Construction  |
-| Elaboration   | Hand  | suggesting    | Suggestion    | Discussion    |
-| Discussion    | Head  | countering    | Counter       | Elaboration   |
-| Discussion    | Head  | confirming    | Confirmation  | Construction  |
-| Discussion    | Head  | abandoning    | Abandonment   | Withdrawn     |
-| Discussion    | Hand  | declining     | Disinclination| Withdrawn     |
-| Construction  | Hand  | disavowing    | Disavowal     | Defaulted     |
-| Construction  | Head  | abandoning    | Abandonment   | Cancelled     |
-| Construction  | Hand  | delivering    | Delivery      | Evaluation    |
-| Evaluation    | Head  | condemning    | Condemnation  | Construction  |
-| Evaluation    | Head  | abandoning    | Abandonment   | Cancelled     |
-| Evaluation    | Head  | declaring     | Declaration   | Completion    |
+| Inception     | Head  | proposing     | proposal      | Elaboration   |
+| Elaboration   | Head  | withdrawing   | withdrawal    | Withdrawn     |
+| Elaboration   | Hand  | declining     | disinclination| Withdrawn     |
+| Elaboration   | Hand  | promising     | promise       | Construction  |
+| Elaboration   | Hand  | offering      | offer         | Discussion    |
+| Discussion    | Head  | clarifying    | clarification | Elaboration   |
+| Discussion    | Head  | confirming    | confirmation  | Construction  |
+| Discussion    | Head  | withdrawing   | withdrawal    | Withdrawn     |
+| Discussion    | Hand  | declining     | disinclination| Withdrawn     |
+| Construction  | Hand  | disavowing    | disavowal     | Defaulted     |
+| Construction  | Head  | cancelling    | cancellation  | Cancelled     |
+| Construction  | Hand  | delivering    | delivery      | Evaluation    |
+| Evaluation    | Head  | refusing      | refusal       | Construction  |
+| Evaluation    | Head  | cancelling    | cancellation  | Cancelled     |
+| Evaluation    | Head  | adopting      | adoption      | Completion    |
 
 propose
 :   inception -> elaboration
 
-[Fruition of Action]({static}/doc/fruition_of_activity.pdf){:target="_blank"}
+[Fruition of Action]({static}/doc/fruition_of_action.pdf){:target="_blank"}
 
 Structuralism vs Phenomenology
 
