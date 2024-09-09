@@ -163,5 +163,7 @@ She is about to take the role of the Hand for this Activity.
 But it seems to me that Boris is still involved somehow, like a sort of sleeping partner.
 I wonder if he now owes Alice a favour?
 
+**Abandon this activity and replay it? Memory Horizon?**
+
 We risk going down some fascinating rabbit holes which sadly, like Boris, I don't
 currently have time for.
