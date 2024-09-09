@@ -20,34 +20,27 @@ Language is action. Interpretation depends on what is present at hand.
 
 Eventually they write a book, *Understanding Computers and Cognition*.
 The copy I have is the third printing, from 1988. It's a very interesting read, and most of it remains relevant to this
-day.
+very day.
 
-In Chapter 5,
+Chapter 5 of the book explores language as protocol for shared activity.
+
+The terminal states are slightly darker.
 
 ![JunkDLCPelican]({static}/img/UCAC_fig5-1.png){:style="width:96%;margin:1rem"}
 
-```python
-class Fruition(State, enum.Enum):
-    """
-    Adapted from 'Understanding Computers and Cognition'
-    by Terry Winograd and Fernando Flores,
-    fig 5.1: The basic conversation for action.
 
-    """
+The protagonists are labelled *A* and *B*. This is very common in Computer Science, where it's the custom
+to refer to them as *Alice* and *Bob*. Sometimes in the field of Security Engineering there's another character
+too, *Charlie*, who is usually trying to interrupt and spoil things.
 
-    inception = 1
-    elaboration = 2
-    construction = 3
-    transition = 4
-    evaluation = 4
-    completion = 5
-    discussion = 6
-    defaulted = 7
-    withdrawn = 8
-    cancelled = 9
-```
+That's fine, but for my application I prefer to separate the names of the characters from the roles they play.
+So I think of the *Head* and the *Hand* as being the initiating and the responding party respectively.
 
-[RUP lifecycle](https://en.wikipedia.org/wiki/Rational_unified_process#Four_project_life-cycle_phases)
+My characters *Alice* and *Boris* (and *Colin* too if necessary) play the roles of Head and Hand, but are not bound to them.
+Some activities actually negotiate these roles on the fly, and so I find the extra level of indirection to be important.
+
+Fruition of Action
+------------------
 
 ![Fruition of Action]({static}/img/fruition.png){:style="width:96%;margin:1rem"}
 
@@ -84,10 +77,10 @@ Composability
 ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BORIS (suggesting):
+BORIS (offering):
 : > Tea or Coffee?
 
-ALICE (confirming):
+ALICE (clarifying):
 : > Tea, please.
 
 Each of these may in turn instantiate other activities when necessary.
@@ -131,7 +124,7 @@ BORIS (declining):
 ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BORIS (suggesting):
+BORIS (offering):
 : > Tea or Coffee?
 
 ALICE (confirming):
@@ -155,20 +148,20 @@ Ambiguity
 ALICE (proposing):
 : > Can you get the mugs for me?
 
-BORIS (suggesting?):
+BORIS (offering?):
 : > My phone's ringing, I'll get them in a second.
 
 His words lack conviction. It's a weak enough statement to constitute Disinclination.
 Even if it's meant as a Promise, it might not meet Alice's expectations for timeliness.
 What happens next?
 
-ALICE (confirming):
+ALICE (clarifying):
 : > Don't worry, I'll do it.
 
 Have they agreed that Alice will get the mugs from the cupboard?
 She is about to take the role of the Hand for this Activity.
-But it seems to me that Barry is still involved somehow, like a sort of sleeping partner.
+But it seems to me that Boris is still involved somehow, like a sort of sleeping partner.
 I wonder if he now owes Alice a favour?
 
-We risk going down some fascinating rabbit holes which sadly, like Barry, I don't
+We risk going down some fascinating rabbit holes which sadly, like Boris, I don't
 currently have time for.
