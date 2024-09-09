@@ -1,4 +1,4 @@
-title: #1: Activity and Fruition
+title: #1: Getting Things Done
 date: 2024-02-24
 author: D E Haynes
 tags: winograd, flores, fruition
@@ -6,12 +6,23 @@ category: Blog
 status: published
 summary: On Fruition
 
-Winograd and Flores
+Flores and Winograd
 -------------------
 
-1988.
+The Chilean Minister of Finance and a Stanford Professor of Artificial Intelligence walk into a bar.
 
-TBD.
+They down a few Rum cocktails and begin to recognize a shared appreciation of Phenomenology.
+They raise their glasses to Hans-Georg Gadamer. They toast the hermeneutics of Martin Heidegger.
+Then against a glorious Pacific sunset, the two men sling some horseshoes and conclude that there is no stable
+representation of reality.
+
+Language is action. Interpretation depends on what is present at hand.
+
+Eventually they write a book, *Understanding Computers and Cognition*.
+The copy I have is the third printing, from 1988. It's a very interesting read, and most of it remains relevant to this
+day.
+
+In Chapter 5,
 
 ![JunkDLCPelican]({static}/img/UCAC_fig5-1.png){:style="width:96%;margin:1rem"}
 
@@ -73,7 +84,7 @@ Composability
 ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BARRY (suggesting):
+BORIS (suggesting):
 : > Tea or Coffee?
 
 ALICE (confirming):
@@ -111,7 +122,7 @@ Social
 ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BARRY (declining):
+BORIS (declining):
 : > No time, sorry. I'm just about to leave for my train.
 
 2
@@ -120,7 +131,7 @@ BARRY (declining):
 ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BARRY (suggesting):
+BORIS (suggesting):
 : > Tea or Coffee?
 
 ALICE (confirming):
@@ -132,7 +143,7 @@ ALICE (confirming):
 ALICE (proposing):
 : > Stick the kettle on, would you?
 
-BARRY (promising):
+BORIS (promising):
 : > OK.
 
 ALICE (abandoning):
@@ -144,7 +155,7 @@ Ambiguity
 ALICE (proposing):
 : > Can you get the mugs for me?
 
-BARRY (suggesting?):
+BORIS (suggesting?):
 : > My phone's ringing, I'll get them in a second.
 
 His words lack conviction. It's a weak enough statement to constitute Disinclination.
