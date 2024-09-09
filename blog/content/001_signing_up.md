@@ -164,6 +164,7 @@ But it seems to me that Boris is still involved somehow, like a sort of sleeping
 I wonder if he now owes Alice a favour?
 
 **Abandon this activity and replay it? Memory Horizon?**
+Is the purpose of a *Ceremony* to reset the memory?
 
 We risk going down some fascinating rabbit holes which sadly, like Boris, I don't
 currently have time for.
