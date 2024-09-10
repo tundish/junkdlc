@@ -22,16 +22,21 @@ Eventually they write a book, *Understanding Computers and Cognition*.
 The copy I have is the third printing, from 1988. It's a very interesting read, and most of it remains relevant to this
 very day.
 
-Chapter 5 of the book explores language as protocol for shared activity.
+Chapter 5 of the book explores language as protocol for shared activity. It presents a state machine which describes the
+conversation between two parties who are collaborating on a task of work.
 
-The terminal states are slightly darker.
 
 ![JunkDLCPelican]({static}/img/UCAC_fig5-1.png){:style="width:96%;margin:1rem"}
 
+Each of the terminal states is slightly darker. The ideal outcome is to reach state 6?, but there are vrious ways that
+things can go wrong. 
 
 The protagonists are labelled *A* and *B*. This is very common in Computer Science, where it's the custom
 to refer to them as *Alice* and *Bob*. Sometimes in the field of Security Engineering there's another character
 too, *Charlie*, who is usually trying to interrupt and spoil things.
+
+Fruition of Action
+------------------
 
 That's fine, but for my application I prefer to separate the names of the characters from the roles they play.
 So I think of the *Head* and the *Hand* as being the initiating and the responding party respectively.
@@ -39,12 +44,8 @@ So I think of the *Head* and the *Hand* as being the initiating and the respondi
 My characters *Alice* and *Boris* (and *Colin* too if necessary) play the roles of Head and Hand, but are not bound to them.
 Some activities actually negotiate these roles on the fly, and so I find the extra level of indirection to be important.
 
-Fruition of Action
-------------------
-
 ![Fruition of Action]({static}/img/fruition.png){:style="width:96%;margin:1rem"}
 
-Introduce 'head' and 'hand'. Explain renaming of arcs.
 
 | When          | Role  | Participle    | Event         | Then          |
 |---------------|-------|---------------|---------------|---------------|
@@ -68,8 +69,6 @@ propose
 :   inception -> elaboration
 
 [Fruition of Action]({static}/doc/fruition_of_action.pdf){:target="_blank"}
-
-Structuralism vs Phenomenology
 
 Composability
 =============
@@ -142,8 +141,8 @@ BORIS (promising):
 ALICE (abandoning):
 : > Do you know what, I think I'll have a bath first. I'll be back down in half an hour.
 
-Ambiguity
----------
+Context Horizon
+---------------
 
 ALICE (proposing):
 : > Can you get the mugs for me?
