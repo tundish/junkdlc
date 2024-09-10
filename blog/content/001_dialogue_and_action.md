@@ -1,10 +1,10 @@
-title: #1: Getting Things Done
-date: 2024-02-24
+title: #1: Dialogue and Action
+date: 2024-09-10
 author: D E Haynes
-tags: winograd, flores, fruition
+tags: winograd, flores, fruition, speech, action
 category: Blog
 status: published
-summary: On Fruition
+summary: How great ideas can be revived and extended. An exploration of Speech Acts in digital dialogue.
 
 Flores and Winograd
 ===================
@@ -82,7 +82,7 @@ previous action.
 Some can be tried again; with others it's the end of the whole process if they fail.
 
 I'm starting to think there's a difference between an Action and an Activity. The word *Action* feels spontaneous and
-bounded in time, whereas an *Activity* takes longer. Perhaps it's the repetition of an Action until it succeeds.
+bounded in time, whereas an *Activity* takes longer. Perhaps it's the repetition of an Action until it succeeds?
 
 Fruition of Action
 ==================
@@ -100,7 +100,7 @@ I've given each state a name. The happy path for the action consists of:
 + Completion
 
 The Discussion state represents the negotiation between parties prior to Construction.
-The action may terminate sub-optimally in states Withdrawn, Defaulted or Cancelled.
+The action may terminate sub-optimally to states Withdrawn, Defaulted or Cancelled.
 
 I renamed some of the transitions so they are specific to the role which
 performs them. This disambiguates the negotiation phase between Elaboration and Discussion.
