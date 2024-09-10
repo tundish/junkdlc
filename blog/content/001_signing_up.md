@@ -139,7 +139,7 @@ Commission of Action
 > Tea or Coffee?
 >
 > ALICE: (clarifying)
-> Tea, please.
+> Tea please.
 >
 > BORIS: (promising)
 > Righto.
@@ -209,7 +209,7 @@ His words lack conviction. It's a weak offer which might equally be interpreted 
 Even if he means to make a promise, Boris might not be able to meet Alice's expectations for timeliness.
 What happens next?
 
-Would it change Boris' intentions if he spotted the illocutionary nod from Alice?
+Would it change Boris' intentions if he spots the illocutionary nod from Alice?
 
 > ALICE (confirming): .
 
@@ -218,6 +218,12 @@ How long will it be before we hear this:
 > ALICE (cancelling):
 > Oh forget it, I'll get them myself.
 
+Conclusion
+==========
 
-[Fruition of Action]({static}/doc/fruition_of_action.pdf){:target="_blank"}
+When you start to use this system of writing, it doesn't take long for the terminology to become second nature.
+I'm finding it a great way of annotating my dialogue.
+
+If you want a hard copy of the Fruition diagram, this
+[PDF version]({static}/doc/fruition_of_action.pdf){:target="_blank"} is convenient for printing.
 
