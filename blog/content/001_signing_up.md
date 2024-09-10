@@ -61,8 +61,14 @@ So I think of the *Head* and the *Hand* as being the initiating and the respondi
 My characters *Alice* and *Boris* (and *Colin* too if necessary) play the roles of Head and Hand, but are not bound to them.
 Some activities actually negotiate these roles on the fly, and so I find the extra level of indirection to be important.
 
-If Boris misunderstands what's expected of him, can he ask Colin for help? Can Colin step in and take his place?
-Does Alice trust Colin? Does Boris now owe Colin a favour? And so on.
+This allows us to think of some very interesting variations:
+
++ Can Boris ask Colin for help?
++ Can Colin step in and take his place?
++ Does Alice trust Colin?
++ Will Boris subsequently owe Colin a favour?
+
+And so on.
 
 Composition
 -----------
