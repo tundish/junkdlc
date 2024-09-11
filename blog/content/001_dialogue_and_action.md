@@ -138,16 +138,16 @@ The key is to understand the contracts woven by their Speech Acts.
 Commission of Action
 --------------------
 
-> ALICE: (proposing)
+> ALICE (proposing):
 > Stick the kettle on, would you?
 >
-> BORIS: (offering)
+> BORIS (offering):
 > Tea or Coffee?
 >
-> ALICE: (clarifying)
+> ALICE (clarifying):
 > Tea please.
 >
-> BORIS: (promising)
+> BORIS (promising):
 > Righto.
 
 It is very clear what's required here. Alice, the Head, wants tea and Boris as the Hand will make it.
@@ -176,10 +176,10 @@ Invitation to Action
 
 What if Alice goes down to the Kitchen and finds Boris there:
 
-> ALICE: (proposing)
+> ALICE (proposing):
 > Tea?
 >
-> BORIS: (promising)
+> BORIS (promising):
 > Sure.
 
 Alice (Head) has announced she's making tea. Boris (Hand) has promised if she does he'll drink a cup. They are in the Construction
@@ -190,16 +190,16 @@ Now another action is born:
 > ALICE (proposing):
 > Can you get the mugs for me?
 
-> BORIS: (offering)
+> BORIS (offering):
 > Mugs or cups?
 >
-> ALICE: (clarifying)
+> ALICE (clarifying):
 > My big blue mug.
 >
-> BORIS: (offering)
+> BORIS (offering):
 > It's in the sink. I'll give it a rinse.
 
-> ALICE: (confirming)
+> ALICE (confirming):
 > Thank you.
 >
 
