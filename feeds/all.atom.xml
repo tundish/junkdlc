@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Saved by the Junk DLC</title><link href="https://tundish.github.io/junkdlc/" rel="alternate"></link><link href="https://tundish.github.io/junkdlc/feeds/all.atom.xml" rel="self"></link><id>https://tundish.github.io/junkdlc/</id><updated>2024-09-10T00:00:00+01:00</updated><subtitle> Rebuilding civilisation using only what's lying around.</subtitle><entry><title>#1: Dialogue and Action</title><link href="https://tundish.github.io/junkdlc/1-dialogue-and-action.html" rel="alternate"></link><published>2024-09-10T00:00:00+01:00</published><updated>2024-09-10T00:00:00+01:00</updated><author><name>D E Haynes</name></author><id>tag:tundish.github.io,2024-09-10:/junkdlc/1-dialogue-and-action.html</id><summary type="html">&lt;p&gt;How great ideas can be revived and extended. An exploration of Speech Acts in digital dialogue.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Flores and Winograd&lt;/h1&gt;
+&lt;p&gt;The Chilean Minister of Finance and a Stanford Professor of Artificial Intelligence walk into a bar.&lt;/p&gt;
+&lt;p&gt;They down a few Rum cocktails and recognize that they share an appreciation of Phenomenology.
+So they raise their glasses to Hans-Georg Gadamer. They salute the hermeneutics of Martin Heidegger.
+Then against a glorious Pacific sunset, the two men sling some horseshoes and conclude that there is no stable
+representation of reality.&lt;/p&gt;
+&lt;p&gt;Language is action. Interpretation depends on what is present at hand.&lt;/p&gt;
+&lt;p&gt;Eventually they write a book called &lt;em&gt;Understanding Computers and Cognition&lt;/em&gt;.
+The copy I have is the third printing, from 1988. It's an excellent read, and much of it remains relevant to this
+very day.&lt;/p&gt;
+&lt;h1&gt;Conversation for Action&lt;/h1&gt;
+&lt;p&gt;The fifth chapter of the book explores Language as protocol for shared Activity. It presents a state machine that describes the
+conversation between two parties who are collaborating on a task of work.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="JunkDLCPelican" src="https://tundish.github.io/junkdlc/img/UCAC_fig5-1.png" style="width:96%;margin:1rem"&gt;&lt;/p&gt;
+&lt;p&gt;The protagonists are labelled &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;B&lt;/em&gt;.
+The states are numbered. The terminal nodes are drawn slightly darker than the internal states of the diagram.&lt;/p&gt;
+&lt;p&gt;It begins with A making a request of B. B can reject it, promise to do it, or negotiate the terms of the request.&lt;/p&gt;
+&lt;p&gt;The action progresses as a conversation. Each transition is achieved by a piece of Speech.
+The ideal outcome is to reach state 5, but there are various paths that terminate elsewhere.&lt;/p&gt;
+&lt;h1&gt;Modifications&lt;/h1&gt;
+&lt;p&gt;Now I've seen a lot of state diagrams in my time, but few so generally applicable as this one.&lt;/p&gt;
+&lt;p&gt;It appeals to me as a template for writing screenplay.
+I think it might serve very well in constructing branching trees of dialogue, such as you find in role-playing games.&lt;/p&gt;
+&lt;p&gt;As I experiment with it, a couple of issues arise which tempt me to extend the original idea.&lt;/p&gt;
+&lt;h2&gt;Indirection&lt;/h2&gt;
+&lt;p&gt;It's the custom in Computer Science to give the protagonists names such as &lt;em&gt;Alice&lt;/em&gt; and &lt;em&gt;Boris&lt;/em&gt;.
+Sometimes in the field of Security Engineering there's another character too, &lt;em&gt;Colin&lt;/em&gt;, who is usually trying to interrupt and spoil everything.&lt;/p&gt;
+&lt;p&gt;I prefer to separate the names of the characters from the roles they play.
+So I think of the &lt;em&gt;Head&lt;/em&gt; and the &lt;em&gt;Hand&lt;/em&gt; as being the initiating and the responding party respectively.&lt;/p&gt;
+&lt;p&gt;My characters &lt;em&gt;Alice&lt;/em&gt; and &lt;em&gt;Boris&lt;/em&gt; (and &lt;em&gt;Colin&lt;/em&gt; too if necessary) play the roles of Head and Hand, but are not bound to them.
+Some activities actually negotiate these roles on the fly, and so I find the extra level of indirection to be important.&lt;/p&gt;
+&lt;p&gt;This allows us to think of some very interesting variations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can Boris ask Colin for help?&lt;/li&gt;
+&lt;li&gt;Can Colin step in and take his place?&lt;/li&gt;
+&lt;li&gt;Does Alice trust Colin?&lt;/li&gt;
+&lt;li&gt;Will Boris subsequently owe Colin a favour?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And so on.&lt;/p&gt;
+&lt;h2&gt;Composition&lt;/h2&gt;
+&lt;p&gt;Imagine the dialogue around making a pot of tea. There are many actions to perform.
+You've got to find the cups, fill the kettle, and that's before all the questions about &lt;em&gt;how&lt;/em&gt; people prefer
+their tea.&lt;/p&gt;
+&lt;p&gt;So the top-level action spawns others. Some of them may be performed concurrently, but many depend on the outcome of a
+previous action.
+Some can be tried again; with others it's the end of the whole process if they fail.&lt;/p&gt;
+&lt;p&gt;I'm starting to think there's a difference between an Action and an Activity. The word &lt;em&gt;Action&lt;/em&gt; feels spontaneous and
+bounded in time, whereas an &lt;em&gt;Activity&lt;/em&gt; takes longer. Perhaps it's the repetition of an Action until it succeeds?&lt;/p&gt;
+&lt;h1&gt;Fruition of Action&lt;/h1&gt;
+&lt;p&gt;Here's my update to the original diagram. I call this variant &lt;em&gt;Fruition of Action&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Fruition of Action" src="https://tundish.github.io/junkdlc/img/fruition.png" style="width:96%;margin:1rem"&gt;&lt;/p&gt;
+&lt;p&gt;I've given each state a name. The happy path for the action consists of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inception&lt;/li&gt;
+&lt;li&gt;Elaboration&lt;/li&gt;
+&lt;li&gt;Construction&lt;/li&gt;
+&lt;li&gt;Evaluation&lt;/li&gt;
+&lt;li&gt;Completion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Discussion state represents the negotiation between parties prior to Construction.
+The action may terminate sub-optimally to states Withdrawn, Defaulted or Cancelled.&lt;/p&gt;
+&lt;p&gt;I renamed some of the transitions so they are specific to the role which
+performs them. This disambiguates the negotiation phase between Elaboration and Discussion.
+An &lt;em&gt;offer&lt;/em&gt; comes from the Hand, and the Head makes the corresponding &lt;em&gt;clarification&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The arrowheads are different in each case. The Head transitions have triangular points, whereas those
+of the Hand are rounded and open.&lt;/p&gt;
+&lt;p&gt;Here is the full state table, including participle names for the transitions:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;Role&lt;/th&gt;
+&lt;th&gt;Participle&lt;/th&gt;
+&lt;th&gt;Event&lt;/th&gt;
+&lt;th&gt;Then&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Inception&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;proposing&lt;/td&gt;
+&lt;td&gt;proposal&lt;/td&gt;
+&lt;td&gt;Elaboration&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elaboration&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;withdrawing&lt;/td&gt;
+&lt;td&gt;withdrawal&lt;/td&gt;
+&lt;td&gt;Withdrawn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elaboration&lt;/td&gt;
+&lt;td&gt;Hand&lt;/td&gt;
+&lt;td&gt;declining&lt;/td&gt;
+&lt;td&gt;disinclination&lt;/td&gt;
+&lt;td&gt;Withdrawn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elaboration&lt;/td&gt;
+&lt;td&gt;Hand&lt;/td&gt;
+&lt;td&gt;promising&lt;/td&gt;
+&lt;td&gt;promise&lt;/td&gt;
+&lt;td&gt;Construction&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elaboration&lt;/td&gt;
+&lt;td&gt;Hand&lt;/td&gt;
+&lt;td&gt;offering&lt;/td&gt;
+&lt;td&gt;offer&lt;/td&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;clarifying&lt;/td&gt;
+&lt;td&gt;clarification&lt;/td&gt;
+&lt;td&gt;Elaboration&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;confirming&lt;/td&gt;
+&lt;td&gt;confirmation&lt;/td&gt;
+&lt;td&gt;Construction&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;withdrawing&lt;/td&gt;
+&lt;td&gt;withdrawal&lt;/td&gt;
+&lt;td&gt;Withdrawn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;Hand&lt;/td&gt;
+&lt;td&gt;declining&lt;/td&gt;
+&lt;td&gt;disinclination&lt;/td&gt;
+&lt;td&gt;Withdrawn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Construction&lt;/td&gt;
+&lt;td&gt;Hand&lt;/td&gt;
+&lt;td&gt;disavowing&lt;/td&gt;
+&lt;td&gt;disavowal&lt;/td&gt;
+&lt;td&gt;Defaulted&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Construction&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;cancelling&lt;/td&gt;
+&lt;td&gt;cancellation&lt;/td&gt;
+&lt;td&gt;Cancelled&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Construction&lt;/td&gt;
+&lt;td&gt;Hand&lt;/td&gt;
+&lt;td&gt;delivering&lt;/td&gt;
+&lt;td&gt;delivery&lt;/td&gt;
+&lt;td&gt;Evaluation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Evaluation&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;refusing&lt;/td&gt;
+&lt;td&gt;refusal&lt;/td&gt;
+&lt;td&gt;Construction&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Evaluation&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;cancelling&lt;/td&gt;
+&lt;td&gt;cancellation&lt;/td&gt;
+&lt;td&gt;Cancelled&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Evaluation&lt;/td&gt;
+&lt;td&gt;Head&lt;/td&gt;
+&lt;td&gt;adopting&lt;/td&gt;
+&lt;td&gt;adoption&lt;/td&gt;
+&lt;td&gt;Completion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;Examples&lt;/h1&gt;
+&lt;p&gt;Modelling social situations requires some thought. It's not about who's doing what.
+The key is to understand the contracts woven by their Speech Acts.&lt;/p&gt;
+&lt;h2&gt;Commission of Action&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (proposing):
+Stick the kettle on, would you?&lt;/p&gt;
+&lt;p&gt;BORIS (offering):
+Tea or Coffee?&lt;/p&gt;
+&lt;p&gt;ALICE (clarifying):
+Tea please.&lt;/p&gt;
+&lt;p&gt;BORIS (promising):
+Righto.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is very clear what's required here. Alice, the Head, wants tea and Boris as the Hand will make it.&lt;/p&gt;
+&lt;p&gt;Of course there's a chance Boris might be disinclined:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (proposing):
+Stick the kettle on, would you?&lt;/p&gt;
+&lt;p&gt;BORIS (declining):
+No time, sorry. I'm just about to leave for my train.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And Alice has been known to change her mind:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (proposing):
+Stick the kettle on, would you?&lt;/p&gt;
+&lt;p&gt;BORIS (promising):
+OK.&lt;/p&gt;
+&lt;p&gt;ALICE (cancelling):
+Do you know what, I think I'll have a bath first. I'll be back down in half an hour.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Invitation to Action&lt;/h2&gt;
+&lt;p&gt;What if Alice goes down to the Kitchen and finds Boris there:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (proposing):
+Tea?&lt;/p&gt;
+&lt;p&gt;BORIS (promising):
+Sure.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alice (Head) has announced she's making tea. Boris (Hand) has promised if she does he'll drink a cup. They are in the Construction
+state of that agreement.&lt;/p&gt;
+&lt;p&gt;Now another action is born:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (proposing):
+Can you get the mugs for me?&lt;/p&gt;
+&lt;p&gt;BORIS (offering):
+Mugs or cups?&lt;/p&gt;
+&lt;p&gt;ALICE (clarifying):
+My big blue mug.&lt;/p&gt;
+&lt;p&gt;BORIS (offering):
+It's in the sink. I'll give it a rinse.&lt;/p&gt;
+&lt;p&gt;ALICE (confirming):
+Thank you.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Misunderstandings and conflicts arise from time to time. As they do here:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (proposing):
+Can you get the mugs for me?&lt;/p&gt;
+&lt;p&gt;BORIS (offering):
+My phone's ringing, I'll get them in a second.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;His words lack conviction. It's a weak offer which might equally be interpreted as disinclination.
+Even if he means to make a promise, Boris might not be able to meet Alice's expectations for timeliness.
+What happens next?&lt;/p&gt;
+&lt;p&gt;Would it change Boris' intentions if he spots the illocutionary nod from Alice?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (confirming): .&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;How long will it be before we hear this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALICE (cancelling):
+Oh forget it, I'll get them myself.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;When you start to use this system of writing, it doesn't take long for the terminology to become second nature.
+I'm finding it a great way of annotating my dialogue.&lt;/p&gt;
+&lt;p&gt;If you want a hard copy of the Fruition diagram, this
+&lt;a href="https://tundish.github.io/junkdlc/doc/fruition_of_action.pdf" target="_blank"&gt;PDF version&lt;/a&gt; is convenient for printing.&lt;/p&gt;</content><category term="Blog"></category><category term="winograd"></category><category term="flores"></category><category term="fruition"></category><category term="speech"></category><category term="action"></category></entry></feed>
