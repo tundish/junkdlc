@@ -1,0 +1,10 @@
+[[doc.html.body.footer.nav.ul.li]]
+attrib = {class = "spiki next", href = "index.html"}
+a = "Next"
+
+[doc.html.body.main]
+blocks = [
+"""
+A
+"""
+]
