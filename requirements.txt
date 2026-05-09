@@ -8,3 +8,4 @@ mdurl
 pelican
 pelican-neighbors
 pelican-readtime
+pygments
