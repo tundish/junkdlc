@@ -32,7 +32,8 @@ blocks = [
 <A> And why do you want to be on YouTube?
 <B> It's not like I actually *want* to be on YouTube.
 <A> Hmmm.
-<B> Not everyone around me wants to hear what I have to say all the time.
+<B> There's a limit to the number of people locally who want to hear
+    what I have to say all the time.
 <A> Yes, I guess not everybody's cup of tea. All the... You know.
 <B> So maybe it's about finding some people who do.
 """,
@@ -40,10 +41,11 @@ blocks = [
 <A> So why do you feel the need so much to...?
 <B> Articulate my ideas?
 <A> Yeah. A lot of people are wondering actually.
-<B> There are some topics I've been thinking about, that I'm pretty sure very few
-    other people can be bothered to think about. Maybe a handful.
+<B> I think if you do get some sort of inspiration, and you're able
+    to build something out of it, then it's a real shame if no one ever
+    gets to know. And the number who actually get it, may only be a handful.
 <A> That many?
-<B> Maybe. I just think it would be a shame if that was to disappear
+<B> Maybe. I just think the more rare an idea is, the more it deserves to be shared.
 
 """,
 ]
