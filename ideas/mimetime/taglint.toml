@@ -1,0 +1,54 @@
+[doc]
+config = {tag_mode = "open"}
+"!doctype html" = ""
+
+[doc.html]
+config = {tag_mode = "pair"}
+attrib = {lang = "en"}
+
+[doc.html.head]
+title = "{metadata[title]}"
+
+[[doc.html.head.meta]]
+config = {tag_mode = "open"}
+attrib = {charset = "UTF-8"}
+
+[[doc.html.head.meta]]
+config = {tag_mode = "void"}
+attrib = {name = "viewport", content = "width=device-width, initial-scale=1.0"}
+
+[[doc.html.head.meta]]
+config = {tag_mode = "open"}
+attrib = {http-equiv = "X-UA-Compatible", content = "ie=edge"}
+
+[[doc.html.head.link]]
+config = {tag_mode = "void"}
+attrib = {rel= "stylesheet", href="pygments_default.css"}
+
+[[doc.html.head.link]]
+config = {tag_mode = "void"}
+attrib = {rel= "stylesheet", href="pygments_xcode_xcode.css"}
+
+[[doc.html.body.main.section]]
+config = {"text_escape" = "none", "text_lexer" = "html"}
+code = """
+<html>
+<head></head>
+<body>
+...
+"""
+
+[[doc.html.body.main.section]]
+attrib = {"class" = "pulse"}
+config = {"text_escape" = "none", "text_lexer" = "html", classprefix="xcode-", style="xcode"}
+code = """
+<p>Hello, World!</p>
+"""
+
+[[doc.html.body.main.section]]
+config = {"text_escape" = "none", "text_lexer" = "html"}
+code = """
+...
+</body>
+</html>
+"""
