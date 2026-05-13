@@ -9,11 +9,11 @@ config = {tag_mode = "open"}
 blocks = [
 """
 <A> I want to get to the bottom of this.
-    So I thought we'd trying doing the 'Five Whys'.
+    So I thought we'd try doing the 'Five Whys'.
     Do you know it?
 <B> Thats like, you ask 'Why' five times and then
-    discover the hidden cause of something?
-<A> Yes, it's for root cause analysis.
+    discover the hidden reason for something?
+<A> Yes, it's a method of root cause analysis.
 <B> Yeah, I know the kind of thing.
 """,
 """
@@ -32,20 +32,29 @@ blocks = [
 <A> And why do you want to be on YouTube?
 <B> It's not like I actually *want* to be on YouTube.
 <A> Hmmm.
-<B> There's a limit to the number of people locally who want to hear
-    what I have to say all the time.
-<A> Yes, I guess not everybody's cup of tea. All the... You know.
-<B> So maybe it's about finding some people who do.
+<B> But there's a limit to the number of people I know personally who really
+    want to hear what I have to say all the time.
+<A> Yes, I guess you're not everybody's cup of tea. All the... You know.
+<B> So maybe it's about finding some others who do.
+<A> Yes, yes.
 """,
 """
-<A> So why do you feel the need so much to...?
+<A> Why is it do you think, you feel the need so much to...?
 <B> Articulate my ideas?
-<A> Yeah. A lot of people are wondering actually.
-<B> I think if you do get some sort of inspiration, and you're able
-    to build something out of it, then it's a real shame if no one ever
-    gets to know. And the number who actually get it, may only be a handful.
-<A> That many?
-<B> Maybe. I just think the more rare an idea is, the more it deserves to be shared.
-
+<A> Yes. A lot of people are wondering that actually.
+<B> If you have a packet of biscuits you should pass them round, shouldn't you?
+    And if you don't want a biscuit don't take one.
+<A> Is it the same thing though?
+""",
+"""
+<B> What's with the pipe anyway?
+<A> Mate, I'm supposed to be asking the questions.
+<B> No, you were doing the Whys. We've had those.
+    I'm asking, *what* are you smoking a pipe for?
+<A> Well it's the character, isn't it? Different character.
+<B> Only I was going to smoke a pipe.
+<A> No, don't.
+<B> Why not?
+<A> Well we're gonna need two pipes then, aren't we?
 """,
 ]
