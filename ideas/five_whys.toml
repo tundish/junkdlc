@@ -1,0 +1,23 @@
+[metadata]
+title = "Five Whys"
+
+[doc]
+config = {tag_mode = "open"}
+"!doctype html" = ""
+
+[doc.html.body.main]
+blocks = [
+"""
+<A> I want to get to the bottom of this.
+    So I thought we'd trying doing the 'Five Whys'.
+    Do you know it?
+<B> Thats like, you ask 'Why' five times and then
+    discover the hidden cause of something?
+<A> Yes, it's for root cause analysis.
+<B> Yeah, I know the kind of thing.
+""",
+"""
+<A> So, why are we doing this today then?
+<B> Well it's for practice really.
+""",
+]
