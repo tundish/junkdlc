@@ -23,14 +23,14 @@ attrib = {http-equiv = "X-UA-Compatible", content = "ie=edge"}
 
 [[doc.html.head.link]]
 config = {tag_mode = "void"}
-attrib = {rel= "stylesheet", href="pygments_default.css"}
+attrib = {rel= "stylesheet", href="pygments_tango_xcode.css"}
 
 [[doc.html.head.link]]
 config = {tag_mode = "void"}
-attrib = {rel= "stylesheet", href="pygments_xcode_xcode.css"}
+attrib = {rel= "stylesheet", href="pygments_lovelace.css"}
 
 [[doc.html.body.main.section]]
-config = {"text_escape" = "none", "text_lexer" = "html"}
+config = {"text_escape" = "none", "text_lexer" = "html", style="lovelace"}
 code = """
 <html>
 <head></head>
@@ -40,13 +40,13 @@ code = """
 
 [[doc.html.body.main.section]]
 attrib = {"class" = "pulse"}
-config = {"text_escape" = "none", "text_lexer" = "html", classprefix="xcode-", style="xcode"}
+config = {"text_escape" = "none", "text_lexer" = "html", classprefix="xcode-", style="tango"}
 code = """
 <p>Hello, World!</p>
 """
 
 [[doc.html.body.main.section]]
-config = {"text_escape" = "none", "text_lexer" = "html"}
+config = {"text_escape" = "none", "text_lexer" = "html", style="lovelace"}
 code = """
 ...
 </body>
