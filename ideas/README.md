@@ -22,6 +22,13 @@ Netrw Basics
 * md (diff)
 * mx/mX
 
+Formats
+=======
+
+1. .txt
+2. .rst
+3. .md
+
 Running WhisperX offline
 ========================
 
