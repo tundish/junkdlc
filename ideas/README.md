@@ -1,3 +1,25 @@
+Principles
+==========
+
+* Path from text to music
+
+Vim Workflow
+============
+
+* vimrc
+* :Ex
+* :terminal
+
+Netrw Basics
+============
+
+* % New file
+* x Display, eg: firefox
+* p Preview
+* mf/MF
+* md (diff)
+* mx/mX
+
 Running WhisperX offline
 ========================
 
