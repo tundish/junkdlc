@@ -3,9 +3,11 @@ Principles
 
 * Path from text to music
 
-Vim Workflow
-============
+Workflow
+========
 
+* Terminal tabs Ctrl-t
+* vim .
 * vimrc
 * :Ex
 * :terminal
