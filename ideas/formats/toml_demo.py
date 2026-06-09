@@ -15,7 +15,7 @@ def main(args):
     if not args.input:
         for text in toml:
             data = tomllib.loads(text)
-            pprint.pprint(data, indent=0)
+            pprint.pprint(data, indent=1)
         return 0
     return 1
 
