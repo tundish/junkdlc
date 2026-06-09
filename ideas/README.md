@@ -1,3 +1,34 @@
+Principles
+==========
+
+* Path from text to music
+
+Workflow
+========
+
+* Terminal tabs Ctrl-t
+* vim .
+* vimrc
+* :Ex
+* :terminal
+
+Netrw Basics
+============
+
+* % New file
+* x Display, eg: firefox
+* p Preview
+* mf/MF
+* md (diff)
+* mx/mX
+
+Formats
+=======
+
+1. .txt
+2. .rst
+3. .md
+
 Running WhisperX offline
 ========================
 
