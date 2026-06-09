@@ -4,7 +4,10 @@ import tomllib
 import sys
 
 toml = [
-"",
+"""
+one = 1
+1 = "one"
+""",
 ]
 
 
