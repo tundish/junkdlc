@@ -21,13 +21,13 @@ def main(args):
         return 0
 
     for path in args.input:
+        text = path.read_text()
         if path.suffix == ".eml":
-            text = path.read_text()
             msg = email.message_from_string(text)
             for n, part in enumerate(msg.walk()):
-                if n:
-                    pprint.pprint(dict(part, n=n, text=str(part)))
-    return 1
+                if not n: continue
+                pprint.pprint(dict(part, n=n, text=str(part)))
+    return 0
 
 
 def parser():
