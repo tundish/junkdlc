@@ -1,4 +1,6 @@
 import argparse
+import email
+import pathlib
 import pprint
 import tomllib
 import sys
@@ -17,12 +19,20 @@ def main(args):
             data = tomllib.loads(text)
             pprint.pprint(data, indent=1)
         return 0
-    return 1
+
+    for path in args.input:
+        text = path.read_text()
+        if path.suffix == ".eml":
+            msg = email.message_from_string(text)
+            for n, part in enumerate(msg.walk()):
+                if not n: continue
+                pprint.pprint(dict(part, n=n, text=str(part)))
+    return 0
 
 
 def parser():
     rv = argparse.ArgumentParser(usage=__doc__, fromfile_prefix_chars="=")
-    rv.add_argument("input", nargs="*")
+    rv.add_argument("input", type=pathlib.Path, nargs="*")
     rv.convert_arg_line_to_args = lambda x: x.split()
     return rv
 
