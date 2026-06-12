@@ -29,6 +29,13 @@ Formats
 2. .rst
 3. .md
 
+Windows techniques
+==================
+
+* GVim for big text settings
+* Win + up for Maximize
+* Use clipboard to speed text entry
+
 Running WhisperX offline
 ========================
 
