@@ -34,7 +34,15 @@ Windows techniques
 
 * GVim for big text settings
 * Win + up for Maximize
+* Win + d for Desktop focus
 * Use clipboard to speed text entry
+* Use Alt menus
+
+Topics
+======
+
+* Barfield
+* Secular prayers (eg: wite a daily poem to self)
 
 Running WhisperX offline
 ========================
@@ -42,3 +50,4 @@ Running WhisperX offline
 * `pip install whisperx` to venv using python 3.12
 * Edit *~py3.12-util/lib/python3.12/site-packages/torch/serialization.py* (~1465) to set `weights_only` False
 * `~/py3.12-util/bin/whisperx --compute_type int8 ~/Music/data/240915_1706.mp3`
+
