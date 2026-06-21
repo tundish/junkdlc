@@ -44,6 +44,7 @@ Topics
 * Barfield
 * Secular prayers (eg: wite a daily poem to self)
 * 'K'-shaped (knowledge) economy. Producer tech vs Consumer tech.
+* Impresario dev log.
 
 Tools
 =====
